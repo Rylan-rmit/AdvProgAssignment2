@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rmit.advprog.assignment2.controllers.PostWindowController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #14242B;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="97.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" textAlignment="RIGHT" wrappingWidth="68.607421875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="id" fill="WHITE" layoutX="182.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="123" wrappingWidth="182.515625">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="97.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Content" textAlignment="RIGHT" wrappingWidth="68.607421875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="content" fill="WHITE" layoutX="182.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="asdf asdf asdf asdf asdf asdf asdf asdf asdf dasdf asdf " wrappingWidth="188.515625">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="97.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Likes" textAlignment="RIGHT" wrappingWidth="68.607421875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="likes" fill="WHITE" layoutX="180.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="123" wrappingWidth="172.515625">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="97.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shares" textAlignment="RIGHT" wrappingWidth="68.607421875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="shares" fill="WHITE" layoutX="180.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="123" wrappingWidth="172.515625">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="70.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date Time" textAlignment="RIGHT" wrappingWidth="95.607421875">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="dateTime" fill="WHITE" layoutX="180.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12/23/2013 13:01" wrappingWidth="172.515625">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="149.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View Post" textAlignment="CENTER" wrappingWidth="102.607421875">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="21.0" layoutX="177.0" layoutY="77.0" stroke="WHITE" strokeType="INSIDE" width="192.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="82.0" layoutX="177.0" layoutY="99.0" stroke="WHITE" strokeType="INSIDE" width="192.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="21.0" layoutX="177.0" layoutY="182.0" stroke="WHITE" strokeType="INSIDE" width="192.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="21.0" layoutX="177.0" layoutY="200.0" stroke="WHITE" strokeType="INSIDE" width="192.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="21.0" layoutX="177.0" layoutY="223.0" stroke="WHITE" strokeType="INSIDE" width="192.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

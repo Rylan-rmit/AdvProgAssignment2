@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="480.0" style="-fx-background-color: #14242B;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rmit.advprog.assignment2.controllers.MostLikesViewController">
+   <children>
+      <TableView layoutX="7.0" layoutY="7.0" prefHeight="387.0" prefWidth="466.0" fx:id="tableView" style="-fx-background-color: #14242B;">
+        <columns>
+            <TableColumn prefWidth="57.0" text="ID" fx:id="idColumn">
+                <cellValueFactory>
+                    <PropertyValueFactory property="id" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="93.0" text="Likes" fx:id="likesColumn">
+                <cellValueFactory>
+                    <PropertyValueFactory property="likes" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="241.0" text="Content" fx:id="contentColumn">
+                <cellValueFactory>
+                    <PropertyValueFactory property="content" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="74.0" fx:id="viewColumn" text="View" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
